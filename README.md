@@ -46,7 +46,7 @@
 
 ## 使用方法
 
-[カスタム等詳しい使い方はこちら](src\docs\usage-and-customization.md)
+[カスタム等詳しい使い方はこちら](src/docs/usage-and-customization.md)
 
 - ブラウザで `http://localhost:5173` にアクセス。
 - 「編集・追加」ページでプロンプトを登録（画像はドラッグ＆ドロップまたはクリックで追加）。
