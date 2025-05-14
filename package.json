@@ -1,17 +1,15 @@
 {
   "name": "prompt-dictionary",
   "version": "1.0.0",
-  "main": "main.js",
   "scripts": {
-    "start": "concurrently \"vite\" \"wait-on http://localhost:5173 && electron .\"",
-    "build": "vite build && electron-builder",
+    "start": "vite",
+    "build": "vite build",
     "dev": "vite",
     "preview": "vite preview"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.0.0",
     "dexie": "^3.2.4",
-    "electron": "^25.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tailwindcss": "^3.3.2"
@@ -20,21 +18,8 @@
     "@types/react": "^19.1.4",
     "@types/react-dom": "^19.1.5",
     "autoprefixer": "^10.4.14",
-    "concurrently": "^8.0.1",
-    "electron-builder": "^24.4.0",
     "postcss": "^8.4.24",
     "typescript": "^5.0.2",
-    "vite": "^4.3.9",
-    "wait-on": "^7.0.1"
-  },
-  "build": {
-    "appId": "com.example.promptdictionary",
-    "files": [
-      "dist/**/*",
-      "main.js"
-    ],
-    "directories": {
-      "output": "release"
-    }
+    "vite": "^4.3.9"
   }
 }

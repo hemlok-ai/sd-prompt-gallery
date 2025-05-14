@@ -5,6 +5,7 @@ import Edit from './components/Edit';
 import Detail from './components/Detail';
 import { Prompt } from './types';
 import db from './db';
+import './styles.css';
 
 function App() {
   const [page, setPage] = useState<'gallery' | 'edit' | 'detail'>('gallery');
