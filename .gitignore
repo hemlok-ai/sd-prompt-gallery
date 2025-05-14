@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# virtual environment
+venv/
+.env/
+.env.local
+
+# VS Code
+.vscode/
+
+# ビルド成果物やキャッシュ
+dist/
+node_modules/
+.vite/
+.cache/
+
+# 一時ファイル
+.DS_Store
+*.log
+*.swp
+
