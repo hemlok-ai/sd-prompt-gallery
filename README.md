@@ -57,6 +57,10 @@
 ## ライセンス
 このプロジェクトは [MIT ライセンス](LICENSE) の下で公開されています。
 
+## バージョン履歴
+- V1.0.0
+   - 正式リリース。
+
 ## 開発者
 - Hemlok（ [GitHub](https://github.com/hemlok-ai) / [X](https://x.com/Hemlok_SD) / [Hugging Face](https://huggingface.co/Hemlok) ）
 
